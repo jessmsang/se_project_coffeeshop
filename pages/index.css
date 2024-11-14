@@ -1,8 +1,141 @@
 .page {
-  min-width: 1100px;
-  max-width: 1600px;
+  min-width: 1440px;
+  max-width: 1440px;
   margin: auto;
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #fff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  left: -50px;
+  height: 39px;
+  width: 105px;
+}
+
+.nav__links {
+  position: relative;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  margin: 8px 0 0;
+  column-gap: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 20px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header__body {
+  position: relative;
+  display: flex;
+  padding: none;
+}
+
+.header__body_text {
+  position: relative;
+  top: 183px;
+  max-width: 729px;
+}
+
+.header__title {
+  margin: auto;
+  max-width: 729px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3f96f3;
+}
+
+.header__description {
+  position: relative;
+  margin: auto;
+  top: 28px;
+  max-width: 683px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__body_image {
+  position: relative;
+  right: -75px;
+  top: 124px;
+}
+
+.header__body_image_image-file {
+  position: relative;
+  width: 646px;
+  height: 568px;
+  padding: none;
+}
+
+.header__footer {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+  display: flex;
+  position: relative;
+  left: 80px;
+  top: 0px;
+  left: 80px;
+  bottom: 40px;
+}
+
+.header__footer_paragraph {
+  position: relative;
+}
+
+.header__footer_column {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.header__footer_paragraph_address {
+  position: relative;
+  right: 80px;
 }
