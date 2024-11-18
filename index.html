@@ -110,7 +110,69 @@
           </ul>
         </section>
 
-        <section id="reservations-section" class="reservations"></section>
+        <section id="reservations-section" class="reservations">
+          <form class="reservations-form">
+            <h1 class="reservattions-form__title">Book a table</h1>
+            <fieldset class="reservations-form__fieldset">
+              <label for="name" class="reservations-form__label">Name</label>
+              <input
+                type="text"
+                class="reservations-form__input"
+                id="name"
+                placeholder="Name Surname"
+                required
+              />
+              <label for="number-guests" class="reservations-form__label"
+                >Number of guests</label
+              >
+              <input
+                type="number"
+                min="1"
+                max="8"
+                class="reservations-form__input"
+                id="number-guests"
+                placeholder="1-8"
+                required
+              />
+              <label for="date-time" class="reservations-form__label"
+                >Date & time</label
+              >
+              <input
+                type="datetime-local"
+                class="reservations-form__input"
+                id="date-time"
+                required
+              />
+              <label for="email" class="reservations-form__label"
+                >Your email</label
+              >
+              <input
+                type="email"
+                class="reservations-form__input"
+                id="email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <fieldset class="reservations-form__fieldset">
+              <button type="submit" class="reservations-form__button">
+                Book a table
+              </button>
+            </fieldset>
+            <fieldset class="reservations-form__fieldset">
+              <label for="terms" class="reservations-form__label"
+                >I agree with the terms of use</label
+              >
+              <input
+                type="checkbox"
+                class="reservations-form__input reservations-form__input-checkbox"
+                name="terms"
+                id="terms"
+                required
+              />
+            </fieldset>
+          </form>
+        </section>
 
         <section id="menu-section" class="menu"></section>
 
