@@ -162,7 +162,7 @@
   line-height: 30px;
 }
 
-.reservations {
+.reservation {
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
@@ -265,7 +265,7 @@
   vertical-align: middle;
 }
 
-.fieldset__terms {
+.form__fieldset_terms {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
