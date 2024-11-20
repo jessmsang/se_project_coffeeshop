@@ -55,6 +55,11 @@
   padding: 20px 0 20px;
 }
 
+.form__button:hover {
+  background-color: #3f96f3;
+  transition-duration: 0.4s;
+}
+
 .form__checkbox {
   width: 20px;
   height: 20px;

@@ -22,3 +22,8 @@
   color: #000000;
   text-decoration: none;
 }
+
+.nav__link:hover {
+  opacity: 0.5;
+  transition-duration: 0.4s;
+}
