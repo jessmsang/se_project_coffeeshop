@@ -81,7 +81,6 @@
 }
 
 .form__fieldset_type_terms {
-  display: flex;
   flex-direction: row-reverse;
   justify-content: center;
 }
